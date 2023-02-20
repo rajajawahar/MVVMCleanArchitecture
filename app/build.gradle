@@ -45,6 +45,7 @@ dependencies {
 
   def lifecycle_version = "2.5.1"
   def arch_version = "2.1.0"
+  def room_version = "2.5.0"
 
   // ViewModel
   implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
@@ -77,4 +78,30 @@ dependencies {
 
   // optional - Test helpers for Lifecycle runtime
   testImplementation "androidx.lifecycle:lifecycle-runtime-testing:$lifecycle_version"
+
+  // Room Version
+  implementation "androidx.room:room-runtime:$room_version"
+  kapt "androidx.room:room-compiler:$room_version"
+  // To use Kotlin annotation processing tool (kapt)
+  kapt "androidx.room:room-ktx:$room_version"
+
+  // Coroutine Version
+  implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+  implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+
+  // Dagger
+  implementation 'com.google.dagger:dagger:2.43.2'
+  kapt 'com.google.dagger:dagger-compiler:2.43.2'
+
+  // Retrofit
+
+  implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+  implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+  implementation 'com.squareup.okhttp3:okhttp:4.10.0'
+
+
+  implementation 'com.github.bumptech.glide:glide:4.14.2'
+  kapt 'com.github.bumptech.glide:compiler:4.14.2'
+
+
 }
