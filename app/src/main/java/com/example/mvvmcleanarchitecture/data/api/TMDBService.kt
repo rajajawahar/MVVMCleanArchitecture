@@ -1,8 +1,8 @@
-package com.example.mvvmcleanarchitecture.api
+package com.example.mvvmcleanarchitecture.data.api
 
-import com.example.mvvmcleanarchitecture.model.ArtistList
-import com.example.mvvmcleanarchitecture.model.MovieList
-import com.example.mvvmcleanarchitecture.model.TvShow
+import com.example.mvvmcleanarchitecture.data.model.ArtistList
+import com.example.mvvmcleanarchitecture.data.model.MovieList
+import com.example.mvvmcleanarchitecture.data.model.TvShow
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

@@ -1,11 +1,10 @@
-package com.example.mvvmcleanarchitecture.data
+package com.example.mvvmcleanarchitecture.data.db
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.example.mvvmcleanarchitecture.model.Movie
-import com.example.mvvmcleanarchitecture.model.TvShow
+import com.example.mvvmcleanarchitecture.data.model.TvShow
 
 @Dao
 interface TvShowDao {
