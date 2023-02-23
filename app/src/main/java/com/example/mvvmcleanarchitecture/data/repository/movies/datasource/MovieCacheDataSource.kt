@@ -1,4 +1,4 @@
-package com.example.mvvmcleanarchitecture.data.repository.movies
+package com.example.mvvmcleanarchitecture.data.repository.movies.datasource
 
 import com.example.mvvmcleanarchitecture.data.model.Movie
 

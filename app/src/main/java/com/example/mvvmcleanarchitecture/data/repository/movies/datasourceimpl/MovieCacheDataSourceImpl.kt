@@ -1,6 +1,7 @@
-package com.example.mvvmcleanarchitecture.data.repository.movies
+package com.example.mvvmcleanarchitecture.data.repository.movies.datasourceimpl
 
 import com.example.mvvmcleanarchitecture.data.model.Movie
+import com.example.mvvmcleanarchitecture.data.repository.movies.datasource.MovieCacheDataSource
 
 class MovieCacheDataSourceImpl : MovieCacheDataSource {
 

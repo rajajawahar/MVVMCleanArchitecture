@@ -1,6 +1,5 @@
-package com.example.mvvmcleanarchitecture.data.repository.movies
+package com.example.mvvmcleanarchitecture.data.repository.movies.datasource
 
-import com.example.mvvmcleanarchitecture.data.model.Movie
 import com.example.mvvmcleanarchitecture.data.model.MovieList
 import retrofit2.Response
 
