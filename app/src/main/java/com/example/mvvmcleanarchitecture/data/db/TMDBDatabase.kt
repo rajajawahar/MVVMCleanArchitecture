@@ -15,6 +15,6 @@ import com.example.mvvmcleanarchitecture.data.model.TvShow
 abstract class TMDBDatabase : RoomDatabase() {
 
   abstract fun movieDao(): MovieDao
-  abstract fun tvShowsDao(): MovieDao
-  abstract fun artitsDao(): MovieDao
+  abstract fun tvShowsDao(): TvShowDao
+  abstract fun artitsDao(): ArtistDao
 }
